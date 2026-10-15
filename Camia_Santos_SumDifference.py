@@ -1,7 +1,8 @@
+# INPUTS -
 num1 = int(input("Enter first number: "))
 
 num2 = int(input("Enter second number: "))
-
+#CALCULATIONS -
 def calculate_sum():
 
     global num1, num2
@@ -17,7 +18,7 @@ def calculate_difference():
     difference = num1 - num2
 
     print(difference)
-
+#DISPLAY OUTPUTS-
 calculate_sum()
 
 calculate_difference()
